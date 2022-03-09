@@ -4,10 +4,7 @@ orbs:
   aws-cli: circleci/aws-cli@1.3.1
 build-deploy:
 jobs:
-    - build
-      - deploy-via-git: # Use the pre-configured job, deploy-via-git
-          requires:
-            - build
+    - build:
           filters:
             branches:
               only: main
