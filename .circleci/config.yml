@@ -5,7 +5,7 @@ orbs:
 jobs:
    build:
    push:
-    - filters:
+     filters:
        branches:
        only: main
     docker:
