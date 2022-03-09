@@ -4,11 +4,13 @@ orbs:
   aws-cli: circleci/aws-cli@1.3.1
 build-deploy:
 jobs:
-     - js_build
-      - test-and-push: # << the job to conditionally run based on the filter-by-branch-name.
+    - build
+      - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
+          requires:
+            - build
           filters:
             branches:
-              only: /master\/.*/
+              only: main
     docker:
       - image: "cimg/base:stable"
     steps:
