@@ -5,7 +5,7 @@ orbs:
 build-deploy:
 jobs:
     - build
-      - application/deploy-via-git: # Use the pre-configured job, deploy-via-git
+      - deploy-via-git: # Use the pre-configured job, deploy-via-git
           requires:
             - build
           filters:
