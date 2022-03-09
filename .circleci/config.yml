@@ -11,7 +11,7 @@ jobs:
             - build
           filters:
             branches:
-              only: main
+            only: /main\/.*/
     docker:
       - image: "cimg/base:stable"
     steps:
