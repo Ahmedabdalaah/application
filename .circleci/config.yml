@@ -5,7 +5,7 @@ orbs:
 build-deploy:
 jobs:
     - build
-      - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
+      - application/deploy-via-git: # Use the pre-configured job, deploy-via-git
           requires:
             - build
           filters:
