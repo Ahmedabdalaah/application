@@ -6,10 +6,10 @@ jobs:
     build:
     jobs:
       - test:
-          filters:
+        filters:
           branches:
-          only:
-          - main
+           only:
+            - main
     docker:
       - image: "cimg/base:stable"
     steps:
