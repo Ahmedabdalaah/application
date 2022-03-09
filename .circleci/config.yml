@@ -5,7 +5,7 @@ orbs:
 build-deploy:
 jobs:
      - js_build
-      - build_application: # << the job to conditionally run based on the filter-by-branch-name.
+      - test-and-push: # << the job to conditionally run based on the filter-by-branch-name.
           filters:
             branches:
               only: /master\/.*/
