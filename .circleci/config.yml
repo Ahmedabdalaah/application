@@ -2,8 +2,10 @@ version: 2.1
 orbs:
   node: circleci/node@4.1.0
   aws-cli: circleci/aws-cli@1.3.1
+build-deploy:
 jobs:
-    build:
+    - js_build
+      - build_server: # << the job to conditionally run based on the filter-by-branch-name.
           filters:
             branches:
               only: /main\/.*/
