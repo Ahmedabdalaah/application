@@ -3,7 +3,9 @@
   "frontend:install": " cd reactnd-contacts-complete && npm install react-scripts ",
         "backend:install": "cd reactnd-contacts-server && npm install",
         "frontend:build": " cd reactnd-contacts-complete && npm run build ",
-        "backend:build": "cd reactnd-contacts-server && npm install react-scripts && npm run build",
+        "backend:build": "cd reactnd-contacts-server && npm run build",
+        "frontend:start": " cd reactnd-contacts-complete && npm run start ",
+        "backend:start": "cd reactnd-contacts-server && npm run start",
         "frontend:deploy": "cd reactnd-contacts-complete && npm run deploy"
     }
 }

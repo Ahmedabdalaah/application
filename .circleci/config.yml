@@ -25,3 +25,11 @@ jobs:
           name: Back-End Build
           command: |
             npm run backend:build
+      - run:
+          name: Back-End start
+          command: |
+            npm run backend:start
+      - run:
+          name: Front-End start
+          command: |
+            npm run frontend:start
