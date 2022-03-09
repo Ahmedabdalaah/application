@@ -13,7 +13,6 @@ jobs:
             branches:
               only: main
 build-test:
-jobs:
   build:
     docker:
       - image: "cimg/base:stable"
