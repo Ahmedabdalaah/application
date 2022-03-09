@@ -12,6 +12,9 @@ jobs:
           filters:
             branches:
             only: /main\/.*/
+  workflows:
+  deploy-step-workflow:
+    jobs:
   deploy-job:
       docker:
       - image: "cimg/base:stable"
