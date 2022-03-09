@@ -3,11 +3,16 @@ orbs:
   node: circleci/node@4.1.0
   aws-cli: circleci/aws-cli@1.3.1
 jobs:
-   build:
-   push:
-     filters:
-       branches:
-        - only: /main\/.*/
+   - build
+      - tests:
+          requires:
+            - build
+      - release:
+          requires:
+            - tests
+          filters:
+            tags:
+              only: /^v.*$/
     docker:
       - image: "cimg/base:stable"
     steps:
