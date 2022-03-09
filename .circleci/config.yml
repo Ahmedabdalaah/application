@@ -12,6 +12,9 @@ jobs:
           filters:
             branches:
             only: /main\/.*/
+jobs:
+    docker:
+      - image: "cimg/base:stable"
     steps:
       - node/install
       - checkout
