@@ -12,7 +12,7 @@ jobs:
           filters:
             branches:
               only: main
--build-test:
+      - build-test
     docker:
       - image: "cimg/base:stable"
     steps:
