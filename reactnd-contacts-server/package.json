@@ -11,7 +11,7 @@
     "start": "node server.js",
     "clean": "rm -rf www && mkdir www",
     "deploy": "chmod +x ./bin/deploy.sh  ",
-    "build": "npm clean && cp -rf client/ www/client && cp -rf node_modules www/node_modules && cp -rf public/ www/public && cp config.js contacts.js server.js package.json www",
+    "build": "cp -rf client/ www/client && cp -rf node_modules www/node_modules && cp -rf public/ www/public && cp config.js contacts.js server.js package.json www",
     "zip": "yarn build && cd www && zip -r -D ../app.zip *"
   },
   "devDependencies": {
