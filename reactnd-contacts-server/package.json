@@ -4,15 +4,19 @@
     "clone": "^2.1.2",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "jasmine": "^4.0.2",
+    "jest": "^27.5.1",
     "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
     "pg": "^8.5.1"
   },
   "scripts": {
     "start": "node server.js",
     "clean": "rm -rf www && mkdir www",
     "deploy": "chmod +x ./bin/deploy.sh  ",
-     "build": " node *.js",
-     "zip": "yarn build && cd www && zip -r -D ../app.zip *"
+    "build": " node *js",
+    "jasmine":"jasmine",
+    "test": " npm run build && npm run jasmine"
   },
   "devDependencies": {
     "body-parser": "^1.18.3",
@@ -20,6 +24,8 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "jasmine": "^4.0.2",
     "pg": "^8.5.1"
   }
 }
