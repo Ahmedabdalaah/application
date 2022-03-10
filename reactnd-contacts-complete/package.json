@@ -11,7 +11,6 @@
     "react-router-dom": "^4.1.1",
     "sort-by": "^1.2.0"
   },
-    "homepage": "http://demobucket1235.s3-website-us-east-1.amazonaws.com",
   "devDependencies": {
     "react-scripts": "1.0.7",
      "form-serialize": "^0.7.2",
