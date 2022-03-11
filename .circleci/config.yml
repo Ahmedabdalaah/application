@@ -5,7 +5,7 @@ orbs:
 jobs:
     build:
       filters:
-      branches:
+      - branches:
       - only: |
        /main\/.*/
      docker:
