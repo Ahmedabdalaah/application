@@ -18,7 +18,7 @@
 
 https://ibb.co/Bt5CmH5 
 
-![infrastructure diagram](infrastructure diagram.jpg)
+![infrastructure diagram](/application/infrastructure diagram.jpg)
 
 **Source code**
 
