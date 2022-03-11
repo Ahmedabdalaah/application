@@ -11,8 +11,7 @@
 
 **Github Link**
 
-- clone the application source code from this link: https://github.com/Ahmedabdalaah/application
-
+- Application source code on gitHub : https://github.com/Ahmedabdalaah/application
 
 **infrastructure diagram**
 
