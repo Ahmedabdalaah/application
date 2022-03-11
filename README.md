@@ -18,7 +18,7 @@
 
 https://ibb.co/Bt5CmH5 
 
-![infrastructure diagram](https://ibb.co/Bt5CmH5))
+![infrastructure diagram](https://ibb.co/Bt5CmH5)
 
 **Source code**
 
