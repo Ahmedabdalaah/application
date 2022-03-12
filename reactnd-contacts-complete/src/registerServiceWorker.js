@@ -11,7 +11,7 @@
 export default function register() {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      const swUrl = "http://demobucket1235.s3-website-us-east-1.amazonaws.com/service-worker.js";
+      const swUrl = "http://demobucket1235.s3-website-us-east-1.amazonaws.com/";
       navigator.serviceWorker
         .register(swUrl)
         .then(registration => {

@@ -25,8 +25,7 @@ https://ibb.co/Bt5CmH5
 
 **FrontEnd Link**
 
-http://demobucket1235.s3-website-us-east-1.amazonaws.com/
-
+http://demobucket1235.s3-website-us-east-1.amazonaws.com
 
 
 
