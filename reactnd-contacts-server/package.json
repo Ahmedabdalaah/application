@@ -8,14 +8,15 @@
     "jest": "^27.5.1",
     "nodemon": "^2.0.7",
     "npm-run-all": "^4.1.5",
-    "pg": "^8.5.1"
+    "pg": "^8.5.1",
+    "sequelize": "^6.17.0"
   },
   "scripts": {
     "start": "node server.js",
     "clean": "rm -rf www && mkdir www",
     "deploy": "chmod +x ./bin/deploy.sh  ",
-    "build": " node *js",
-    "jasmine":"jasmine",
+    "build": " node *js " ,
+    "jasmine": "jasmine",
     "test": " npm run build && npm run jasmine"
   },
   "devDependencies": {

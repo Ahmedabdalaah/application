@@ -1,4 +1,4 @@
 cd www
-eb use Demo1-env-1
+eb use Demo2-env-3
 eb setenv PORT=$port USERNAME=$USERNAME AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID  AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
-eb deploy Demo1-env-1
+eb deploy Demo2-env-3

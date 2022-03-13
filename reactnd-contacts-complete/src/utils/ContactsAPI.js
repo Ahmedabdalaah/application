@@ -1,4 +1,4 @@
-const api = "http://demo1-env-1.eba-njq4z4cq.us-east-1.elasticbeanstalk.com/"
+const api = "http://demo2-env-3.eba-pncrppxc.us-east-1.elasticbeanstalk.com"
 
 let token = localStorage.token
 
